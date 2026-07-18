@@ -4,79 +4,78 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Our website is coming soon. Stay connected for updates." />
-  <title>Coming Soon</title>
+  <title>AcyMart Coming Soon</title>
+  <link rel="icon" type="image/png" href="images/logo-icon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <section class="page">
-    <header>
-      <div class="brand">
-        <img src="images/logo.png" alt="ACY Mart" class="brand-logo-full" />
-        <img src="images/logo-icon.png" alt="ACY Mart" class="brand-logo-icon" />
+  <header>
+    <div class="brand">
+      <img src="images/logo.png" alt="Acy Mart" class="brand-logo-full" />
+      <img src="images/logo-icon.png" alt="Acy Mart" class="brand-logo-icon" />
+    </div>
+
+    <div class="status">
+      <span class="status-dot"></span>
+      <span>AcyMart is under development</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <div class="eyebrow">Something exciting is coming</div>
+
+      <h1>We are building something <span>amazing.</span></h1>
+
+      <p class="description">
+        Our official website is currently under development. We are working
+        hard to create a fast, secure, and enjoyable experience for you.
+        Please check back soon for the official launch.
+      </p>
+
+      <div class="progress-label">
+        <span>Website progress</span>
+        <span>78%</span>
       </div>
 
-      <div class="status">
-        <span class="status-dot"></span>
-        <span>Website under development</span>
-      </div>
-    </header>
-
-    <main>
-      <div class="content">
-        <div class="eyebrow">Something exciting is coming</div>
-
-        <h1>We are building something <span>amazing.</span></h1>
-
-        <p class="description">
-          Our official website is currently under development. We are working
-          hard to create a fast, secure, and enjoyable experience for you.
-          Please check back soon for the official launch.
-        </p>
-
-        <div class="progress-label">
-          <span>Website progress</span>
-          <span>78%</span>
-        </div>
-
-        <div class="progress-track">
-          <div class="progress-bar"></div>
-        </div>
-
-        <form class="form" id="notifyForm">
-          <input
-            type="email"
-            id="email"
-            placeholder="Enter your email address"
-            aria-label="Email address"
-            required
-          />
-          <button type="submit">Notify Me</button>
-        </form>
-
-        <p class="form-note">Get notified when the website officially launches.</p>
-        <div id="message"></div>
+      <div class="progress-track">
+        <div class="progress-bar"></div>
       </div>
 
-      <div class="visual">
-        <div class="float-card card-one">⚡ Fast experience</div>
+      <form class="form" id="notifyForm">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email address"
+          aria-label="Email address"
+          required
+        />
+        <button type="submit">Notify Me</button>
+      </form>
 
-        <div class="orb">
-          <div class="rocket">🚀</div>
-        </div>
+      <p class="form-note">Get notified when the website officially launches.</p>
+      <div id="message"></div>
+    </div>
 
-        <div class="float-card card-two">✓ Launching soon</div>
+    <div class="visual">
+      <div class="float-card card-one">⚡ Fast experience</div>
+
+      <div class="orb">
+        <div class="rocket">🚀</div>
       </div>
-    </main>
 
-    <footer>
-      <span>© <span id="year"></span> AcyMart. All rights reserved.</span>
-      <span>
-        Questions?
-        <a href="mailto:info@yourdomain.com">support@acymart.com</a>
-      </span>
-    </footer>
-  </section>
+      <div class="float-card card-two">✓ Launching soon</div>
+    </div>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> AcyMart. All rights reserved.</span>
+    <span>
+      Questions?
+      <a href="mailto:info@yourdomain.com">support@acymart.com</a>
+    </span>
+  </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
