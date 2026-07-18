@@ -24,14 +24,11 @@ body {
     #f7f9fc;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 24px;
   overflow-x: hidden;
 }
 
-header,
-main,
-footer {
+main {
+  align-self: center;
   width: min(1120px, 100%);
 }
 
@@ -379,10 +376,6 @@ footer a {
 }
 
 @media (max-width: 560px) {
-  body {
-    padding: 10px;
-  }
-
   header {
     height: 76px;
   }
