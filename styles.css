@@ -32,6 +32,17 @@ main {
   width: min(1120px, 100%);
 }
 
+@media (min-width: 851px) {
+  html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 header {
   height: 92px;
   display: flex;
@@ -414,6 +425,7 @@ footer a {
   }
 
   .form input {
+    flex: none;
     height: 54px;
     border: 1px solid var(--border);
     border-radius: 13px;
