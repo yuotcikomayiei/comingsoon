@@ -273,6 +273,7 @@ h1 span {
 
 .float-card {
   position: absolute;
+  z-index: 2;
   padding: 13px 16px;
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid var(--border);
